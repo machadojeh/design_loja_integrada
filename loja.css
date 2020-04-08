@@ -1,0 +1,215 @@
+body {
+    background-color: #fff;
+}
+
+.conteiner-principal .conteiner {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;    
+    box-shadow: none;
+}
+
+.menu.superior {
+    background-color: #fff;
+    font-family: 'Montserrat', sans-serif !important;
+    text-transform: uppercase;
+}
+
+.abas-custom .tab-content {
+    box-shadow: none;
+    border: 1px solid;
+    border-color: rgba(0,0,0,0.13);
+}
+
+.titulo {
+    font-family: 'Montserrat', sans-serif !important;
+    text-transform: uppercase;
+}
+
+.busca {
+    background-color: #fff;
+    border: none;
+}
+
+.carrinho {
+    border-style: none;
+}
+
+.fundo-principal, .botao.principal, .botao.principal:hover, .bandeira-carrinho{
+    background-color: #fff;
+    color: #ff97ad;
+    font-family: 'Montserrat', sans-serif !important;
+    text-transform: uppercase;
+}
+
+.fundo-principal, .fundo-principal *, .fundo-principal *:hover, .fundo-principal:hover, .fundo-principal.botao:hover {
+    color: #ff97ad !important;
+}
+
+.botao, .botao:hover {
+    background-image: none;
+    border: none;
+}
+
+.btn {
+    background-image: none;   
+}
+
+.botao-comprar:hover, .botao.principal.grande:hover{
+    background-color: #ff97ad !important; 
+}
+
+.botao.principal.botao-comprar, .botao.principal.grande, .acoes-produto-responsiva .tag-comprar span, .acoes-produto-responsiva .tag-comprar i {
+    color: #ffffff !important;
+    text-shadow: none;  
+}
+
+.botao.principal {
+   text-shadow: none; 
+}
+
+.produto .acoes-flutuante .close_float{
+    background-color: transparent;   
+}
+
+.newsletter .botao {
+    background-color: transparent;    
+}
+
+.menu .nivel-dois, .menu .nivel-tres, .menu.lateral .nivel-um>li>a {
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;    
+    box-shadow: none; 
+}
+
+.bandeiras-produto .adicionado-carrinho {
+    color: #ffffff !important;
+    background-color: #00d1ff !important;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;    
+    box-shadow: none;    
+}
+
+.bandeiras-produto .fundo-principal {
+    color: #ffffff !important;
+    background-color: #ff0000 !important;
+    border: none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;    
+    box-shadow: none;    
+}
+
+textarea, input[type="text"], input[type="password"], input[type="datetime"], input[type="datetime-local"], input[type="date"], input[type="month"], input[type="time"], input[type="week"], input[type="number"], input[type="email"], input[type="url"], input[type="search"], input[type="tel"], input[type="color"], .uneditable-input {
+    background-color: #fff;
+    border: 1px solid #ccc;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;
+    box-shadow: none;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -o-transition: none;
+    transition: none;
+}
+
+textarea:hover,  
+textarea:active, 
+input:active, 
+textarea:focus,
+input:hover,
+input:focus,
+button:focus,
+button:active,
+button:hover,
+label:focus,
+.btn:active,
+.btn.active {
+    /*outline:0px !important;
+    -webkit-appearance:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;    
+    box-shadow: none !important;
+    border-color: #666 !important;*/
+}
+
+.email-box input[type=text],
+.email-box input[type=text]:hover
+.email-box input[type=text]:active,
+{
+    outline:0px !important;
+    -webkit-appearance:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;    
+    box-shadow: none !important;
+    border-color: #666 !important;
+}
+
+
+[class^="icon"]{
+    font-family: 'FontAwesome' !important;
+    text-transform: none;
+}
+
+.atalhos-mobile a, .icon-th:before, .icon-chevron-right:before{
+    text-shadow: none;
+    font-family: 'FontAwesome' !important;
+    text-transform: none;    
+}
+
+.atalhos-mobile .fundo-principal, .atalhos-mobile .fundo-principal a{
+    background-color: #444;
+    color: #ffffff !important;
+}
+
+.identificacao .control-group .submit-email.botao.principal {
+    font-size: 120%;
+}
+
+.acoes-produto-responsiva .identificacao .control-group .submit-email.botao.principal {
+    font-size: unset;
+}
+
+#id_email_login, .caixa-sombreada, .dropdown-menu, .dropdown-toggle{
+    outline:0px !important;
+    -webkit-appearance:none;
+    -webkit-box-shadow: none;
+    -moz-box-shadow: none;    
+    box-shadow: none !important;
+    border-color: #ccc !important;    
+}
+
+.info-banner {
+    visibility: hidden;   
+}
+
+.listagem .produtos-carrossel {
+    padding: 0px;   
+}
+
+.listagem .span4 .imagem-produto, .listagem .produtos-carrossel[data-produtos-linha="3"] .imagem-produto, .listagem .produtos-carrossel[data-produtos-linha="4"] .imagem-produto{
+   /*background-color: #fff2f2;*/
+}
+
+
+.listagem .produtos-carrossel .listagem-linha li .listagem-item {
+    margin: 0px;
+}
+
+.listagem .listagem-linha:first-child {
+    padding: opx;
+}
+
+.listagem .info-produto {
+    text-align: center;   
+}
+
+.listagem .titulo-categoria:hover {
+    background-color: transparent;
+}
+
+.pagina-pagina .conteudo li{
+    list-style: none;
+}
+
+html {
+  scroll-behavior: smooth;
+}
